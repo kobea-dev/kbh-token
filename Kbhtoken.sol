@@ -329,7 +329,7 @@ contract KBHToken is BurnableToken, DetailedERC20, ERC20Token, TokenLock {
   event Approval(address indexed owner, address indexed spender, uint256 value);
 
   string public constant symbol = "KBH";
-  string public constant name = "Kobea blackhole";
+  string public constant name = "Korea blackhole";
   uint8 public constant decimals = 18;
   uint256 public constant TOTAL_SUPPLY = 4*(10**9)*(10**uint256(decimals));
 
